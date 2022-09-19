@@ -17,13 +17,20 @@
                 <div>
                     <h1>Affirmations Button</h1>
                     <p>Click on the button to get an affirmation</p>
-                    <button class="btn" type="button" onclick="getAffirmation()">Click Me!</button>
+                    <button class="affirmationBtn" type="button" onclick="getAffirmation()">Click me!</button>
                 </div>
                 <!-- Affirmation Section -->
                 <div>
                     <i><h2 id="affirmation"></h2></i>
                 </div>
+                <hr>
                 <!-- Add Affirmation Section -->
+                <div class="addAffirmation">
+                    <h2><label for="newAffirmation">Add your own affirmation</label></h2>
+                    <input type="text" id="newAffirmation" placeholder="Add affirmation" maxlength="256" />
+                    <button type="button" onclick="addAffirmation()">Submit</button>
+                    <i><h2 class="success" id="successAdd"></h2></i>
+                </div>
                 <div>
                     
                 </div>            
