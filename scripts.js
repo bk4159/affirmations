@@ -19,10 +19,14 @@ function getAffirmation() {
 //add an affirmation to the list of affirmations
 function addAffirmation() {
     const affirmationInput = document.getElementById("newAffirmation");
-    const affirmation = document.getElementById("newAffirmation").value;
+    const affirmation = affirmationInput.value;
     const successAdd = document.getElementById("successAdd");
+
+    if (!affirmation) {
+        return;
+    }
     
-    affirmations.push(affirmationInput.value);
+    affirmations.push(affirmation);
     affirmationInput.value = "";
     successAdd.textContent = "The new affirmation was added";
 
