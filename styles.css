@@ -1,0 +1,59 @@
+html {
+  /* Photo by Jackson Hendry (https://unsplash.com/@actionjackson801?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on Unsplash (https://unsplash.com/s/photos/night-sky?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText") */
+  background: url(assets/img/jackson-hendry-eodA_8CTOFo-unsplash.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+}
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 0;
+  color: #ffffff;
+}
+
+.centered {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  min-height: 100vh;
+}
+.mainContent{
+  text-align: center;  
+}
+.affirmationBtn {
+  font-size: 1.75rem;
+  font-weight:500;
+  font-style: italic;
+  background-color: #84cadf;
+  min-height: 15rem;
+  min-width: 15rem;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;  
+}
+.addAffirmation {
+  margin-top: 2rem;
+}
+.addAffirmation input {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.25rem;
+  min-width: 50vw;
+  padding: 1rem;
+  border: none;
+  border-radius: 0.5rem;  
+}
+.addAffirmation button {
+  margin: 0.5rem auto;
+  display: block;
+  font-size: 1.4rem;
+  padding: 0.5rem 2rem;
+  background-color: #84cadf;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+.success {
+  color: #4cad65;
+}
